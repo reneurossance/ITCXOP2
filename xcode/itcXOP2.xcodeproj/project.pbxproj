@@ -1,0 +1,1014 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7520D11D1FBBDD910024FB87 /* Carbon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7520D11C1FBBDD910024FB87 /* Carbon.framework */; };
+		7520D11F1FBBDD9B0024FB87 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7520D11E1FBBDD9B0024FB87 /* Cocoa.framework */; };
+		7520D1201FBBDDAA0024FB87 /* Carbon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7520D11C1FBBDD910024FB87 /* Carbon.framework */; };
+		7520D1211FBBDDAF0024FB87 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7520D11E1FBBDD9B0024FB87 /* Cocoa.framework */; };
+		7520D1231FBBDDCD0024FB87 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7520D1221FBBDDCD0024FB87 /* AudioToolbox.framework */; };
+		7520D1241FBBDDDB0024FB87 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7520D1221FBBDDCD0024FB87 /* AudioToolbox.framework */; };
+		7520D1261FBBE4C30024FB87 /* itcXOP2.r in Rez */ = {isa = PBXBuildFile; fileRef = 7520D1251FBBE4C30024FB87 /* itcXOP2.r */; };
+		7520D1271FBBE4C30024FB87 /* itcXOP2.r in Rez */ = {isa = PBXBuildFile; fileRef = 7520D1251FBBE4C30024FB87 /* itcXOP2.r */; };
+		7520D1361FBC0F880024FB87 /* ConcurrentQueue.h in Headers */ = {isa = PBXBuildFile; fileRef = 7520D12E1FBC0F880024FB87 /* ConcurrentQueue.h */; };
+		7520D13A1FBC0F880024FB87 /* ConcurrentXOPNotice.h in Headers */ = {isa = PBXBuildFile; fileRef = 7520D1301FBC0F880024FB87 /* ConcurrentXOPNotice.h */; };
+		7520D14E1FBC10730024FB87 /* ErrorDisplayClass.h in Headers */ = {isa = PBXBuildFile; fileRef = 7520D14A1FBC10730024FB87 /* ErrorDisplayClass.h */; };
+		7520D16F1FBC38DC0024FB87 /* ConcurrentXOPNotice.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7520D16D1FBC38DC0024FB87 /* ConcurrentXOPNotice.cpp */; };
+		7520D18D1FBC3A8A0024FB87 /* ErrorDisplayClass.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7520D18B1FBC3A8A0024FB87 /* ErrorDisplayClass.cpp */; };
+		75B7BC251FBFB52C00593BCC /* ConcurrentQueue.h in Headers */ = {isa = PBXBuildFile; fileRef = 7520D12E1FBC0F880024FB87 /* ConcurrentQueue.h */; };
+		75B7BC261FBFB52C00593BCC /* ConcurrentXOPNotice.h in Headers */ = {isa = PBXBuildFile; fileRef = 7520D1301FBC0F880024FB87 /* ConcurrentXOPNotice.h */; };
+		75B7BC271FBFB52C00593BCC /* ErrorDisplayClass.h in Headers */ = {isa = PBXBuildFile; fileRef = 7520D14A1FBC10730024FB87 /* ErrorDisplayClass.h */; };
+		75B7BC291FBFB53D00593BCC /* ConcurrentXOPNotice.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7520D16D1FBC38DC0024FB87 /* ConcurrentXOPNotice.cpp */; };
+		75B7BC2A1FBFB53D00593BCC /* ErrorDisplayClass.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7520D18B1FBC3A8A0024FB87 /* ErrorDisplayClass.cpp */; };
+		75B7BC301FBFB60B00593BCC /* RegisterOperations.h in Headers */ = {isa = PBXBuildFile; fileRef = 75B7BC2D1FBFB60B00593BCC /* RegisterOperations.h */; };
+		75B7BC311FBFB60B00593BCC /* RegisterOperations.h in Headers */ = {isa = PBXBuildFile; fileRef = 75B7BC2D1FBFB60B00593BCC /* RegisterOperations.h */; };
+		75B7BC331FBFB6C400593BCC /* CustomExceptions.h in Headers */ = {isa = PBXBuildFile; fileRef = 75B7BC321FBFB6C400593BCC /* CustomExceptions.h */; };
+		75B7BC341FBFB6C400593BCC /* CustomExceptions.h in Headers */ = {isa = PBXBuildFile; fileRef = 75B7BC321FBFB6C400593BCC /* CustomExceptions.h */; };
+		75B7BC361FBFB97F00593BCC /* ITC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75B7BC351FBFB97F00593BCC /* ITC.framework */; };
+		75B7BC371FBFB97F00593BCC /* ITC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75B7BC351FBFB97F00593BCC /* ITC.framework */; };
+		75B7BC3C1FC248AF00593BCC /* ITC_StandardHeaders.h in Headers */ = {isa = PBXBuildFile; fileRef = 75B7BC3B1FC248AF00593BCC /* ITC_StandardHeaders.h */; };
+		75B7BC3D1FC248AF00593BCC /* ITC_StandardHeaders.h in Headers */ = {isa = PBXBuildFile; fileRef = 75B7BC3B1FC248AF00593BCC /* ITC_StandardHeaders.h */; };
+		75B7BC3F1FC2494B00593BCC /* DeviceIDClass.h in Headers */ = {isa = PBXBuildFile; fileRef = 75B7BC3E1FC2494B00593BCC /* DeviceIDClass.h */; };
+		75B7BC401FC2494B00593BCC /* DeviceIDClass.h in Headers */ = {isa = PBXBuildFile; fileRef = 75B7BC3E1FC2494B00593BCC /* DeviceIDClass.h */; };
+		75B7BC421FC2498C00593BCC /* itcXOP2.h in Headers */ = {isa = PBXBuildFile; fileRef = 75B7BC411FC2498C00593BCC /* itcXOP2.h */; };
+		75B7BC431FC2498C00593BCC /* itcXOP2.h in Headers */ = {isa = PBXBuildFile; fileRef = 75B7BC411FC2498C00593BCC /* itcXOP2.h */; };
+		75B7BC451FC249DE00593BCC /* DeviceIDClass.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 75B7BC441FC249DE00593BCC /* DeviceIDClass.cpp */; };
+		75B7BC461FC249DE00593BCC /* DeviceIDClass.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 75B7BC441FC249DE00593BCC /* DeviceIDClass.cpp */; };
+		75B7BC4B1FC24AFC00593BCC /* CustomExceptions.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 75B7BC4A1FC24AFC00593BCC /* CustomExceptions.cpp */; };
+		75B7BC4C1FC24AFC00593BCC /* CustomExceptions.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 75B7BC4A1FC24AFC00593BCC /* CustomExceptions.cpp */; };
+		75B7BC4F1FC24CBA00593BCC /* itcdll.h in Headers */ = {isa = PBXBuildFile; fileRef = 75B7BC4E1FC24CBA00593BCC /* itcdll.h */; };
+		75B7BC501FC24CBA00593BCC /* itcdll.h in Headers */ = {isa = PBXBuildFile; fileRef = 75B7BC4E1FC24CBA00593BCC /* itcdll.h */; };
+		75B7BC551FC24D4700593BCC /* ITCDeviceTypeEnum.h in Headers */ = {isa = PBXBuildFile; fileRef = 75B7BC521FC24D4700593BCC /* ITCDeviceTypeEnum.h */; };
+		75B7BC561FC24D4700593BCC /* ITCDeviceTypeEnum.h in Headers */ = {isa = PBXBuildFile; fileRef = 75B7BC521FC24D4700593BCC /* ITCDeviceTypeEnum.h */; };
+		75B7BC591FC24DD000593BCC /* HelperFunctions.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 75B7BC571FC24DD000593BCC /* HelperFunctions.cpp */; };
+		75B7BC5A1FC24DD000593BCC /* HelperFunctions.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 75B7BC571FC24DD000593BCC /* HelperFunctions.cpp */; };
+		75B7BC5B1FC24DD000593BCC /* HelperFunctions.h in Headers */ = {isa = PBXBuildFile; fileRef = 75B7BC581FC24DD000593BCC /* HelperFunctions.h */; };
+		75B7BC5C1FC24DD000593BCC /* HelperFunctions.h in Headers */ = {isa = PBXBuildFile; fileRef = 75B7BC581FC24DD000593BCC /* HelperFunctions.h */; };
+		75B7BC5E1FC255FA00593BCC /* ITCDeviceTypeEnum.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 75B7BC5D1FC255FA00593BCC /* ITCDeviceTypeEnum.cpp */; };
+		75B7BC5F1FC255FA00593BCC /* ITCDeviceTypeEnum.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 75B7BC5D1FC255FA00593BCC /* ITCDeviceTypeEnum.cpp */; };
+		75B7BC621FC2563100593BCC /* ITCChannelTypeEnum.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 75B7BC601FC2563100593BCC /* ITCChannelTypeEnum.cpp */; };
+		75B7BC631FC2563100593BCC /* ITCChannelTypeEnum.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 75B7BC601FC2563100593BCC /* ITCChannelTypeEnum.cpp */; };
+		75B7BC641FC2563100593BCC /* ITCChannelTypeEnum.h in Headers */ = {isa = PBXBuildFile; fileRef = 75B7BC611FC2563100593BCC /* ITCChannelTypeEnum.h */; };
+		75B7BC651FC2563100593BCC /* ITCChannelTypeEnum.h in Headers */ = {isa = PBXBuildFile; fileRef = 75B7BC611FC2563100593BCC /* ITCChannelTypeEnum.h */; };
+		75B7BC681FC2571F00593BCC /* DeviceIDHelper.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 75B7BC661FC2571F00593BCC /* DeviceIDHelper.cpp */; };
+		75B7BC691FC2571F00593BCC /* DeviceIDHelper.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 75B7BC661FC2571F00593BCC /* DeviceIDHelper.cpp */; };
+		75B7BC6A1FC2571F00593BCC /* DeviceIDHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 75B7BC671FC2571F00593BCC /* DeviceIDHelper.h */; };
+		75B7BC6B1FC2571F00593BCC /* DeviceIDHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 75B7BC671FC2571F00593BCC /* DeviceIDHelper.h */; };
+		75B7BC6D1FC25A5400593BCC /* itcdll.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 75B7BC6C1FC25A5400593BCC /* itcdll.cpp */; };
+		75B7BC6E1FC25A5400593BCC /* itcdll.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 75B7BC6C1FC25A5400593BCC /* itcdll.cpp */; };
+		75B7BC781FC2CDA100593BCC /* libfmt.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 75B7BC771FC2CDA100593BCC /* libfmt.a */; };
+		75B7BC791FC2CDA100593BCC /* libfmt.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 75B7BC771FC2CDA100593BCC /* libfmt.a */; };
+		75B7BC7B1FC2D1E900593BCC /* HelperFunctions_DAC.h in Headers */ = {isa = PBXBuildFile; fileRef = 75B7BC7A1FC2D1E900593BCC /* HelperFunctions_DAC.h */; };
+		75B7BC7C1FC2D1E900593BCC /* HelperFunctions_DAC.h in Headers */ = {isa = PBXBuildFile; fileRef = 75B7BC7A1FC2D1E900593BCC /* HelperFunctions_DAC.h */; };
+		75B7BC7F1FC2D20E00593BCC /* ChannelSelection.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 75B7BC7D1FC2D20E00593BCC /* ChannelSelection.cpp */; };
+		75B7BC801FC2D20E00593BCC /* ChannelSelection.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 75B7BC7D1FC2D20E00593BCC /* ChannelSelection.cpp */; };
+		75B7BC811FC2D20E00593BCC /* ChannelSelection.h in Headers */ = {isa = PBXBuildFile; fileRef = 75B7BC7E1FC2D20E00593BCC /* ChannelSelection.h */; };
+		75B7BC821FC2D20E00593BCC /* ChannelSelection.h in Headers */ = {isa = PBXBuildFile; fileRef = 75B7BC7E1FC2D20E00593BCC /* ChannelSelection.h */; };
+		75B7BC871FC2D2A800593BCC /* ITCCloseAll2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 75B7BC861FC2D2A800593BCC /* ITCCloseAll2.cpp */; };
+		75B7BC881FC2D2A800593BCC /* ITCCloseAll2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 75B7BC861FC2D2A800593BCC /* ITCCloseAll2.cpp */; };
+		75B7BC8A1FC2D2CE00593BCC /* ITCCloseDevice2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 75B7BC891FC2D2CE00593BCC /* ITCCloseDevice2.cpp */; };
+		75B7BC8B1FC2D2CE00593BCC /* ITCCloseDevice2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 75B7BC891FC2D2CE00593BCC /* ITCCloseDevice2.cpp */; };
+		75B7BCAA1FC2D30800593BCC /* ITCConfigAllChannels2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 75B7BC8C1FC2D30800593BCC /* ITCConfigAllChannels2.cpp */; };
+		75B7BCAB1FC2D30800593BCC /* ITCConfigAllChannels2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 75B7BC8C1FC2D30800593BCC /* ITCConfigAllChannels2.cpp */; };
+		75B7BCAC1FC2D30800593BCC /* ITCConfigChannel2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 75B7BC8D1FC2D30800593BCC /* ITCConfigChannel2.cpp */; };
+		75B7BCAD1FC2D30800593BCC /* ITCConfigChannel2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 75B7BC8D1FC2D30800593BCC /* ITCConfigChannel2.cpp */; };
+		75B7BCAE1FC2D30800593BCC /* ITCConfigChannelReset2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 75B7BC8E1FC2D30800593BCC /* ITCConfigChannelReset2.cpp */; };
+		75B7BCAF1FC2D30800593BCC /* ITCConfigChannelReset2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 75B7BC8E1FC2D30800593BCC /* ITCConfigChannelReset2.cpp */; };
+		75B7BCB01FC2D30800593BCC /* ITCConfigChannelUpload2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 75B7BC8F1FC2D30800593BCC /* ITCConfigChannelUpload2.cpp */; };
+		75B7BCB11FC2D30800593BCC /* ITCConfigChannelUpload2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 75B7BC8F1FC2D30800593BCC /* ITCConfigChannelUpload2.cpp */; };
+		75B7BCB21FC2D30800593BCC /* ITCFIFOAvailable2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 75B7BC901FC2D30800593BCC /* ITCFIFOAvailable2.cpp */; };
+		75B7BCB31FC2D30800593BCC /* ITCFIFOAvailable2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 75B7BC901FC2D30800593BCC /* ITCFIFOAvailable2.cpp */; };
+		75B7BCB41FC2D30800593BCC /* ITCFIFOAvailableAll2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 75B7BC911FC2D30800593BCC /* ITCFIFOAvailableAll2.cpp */; };
+		75B7BCB51FC2D30800593BCC /* ITCFIFOAvailableAll2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 75B7BC911FC2D30800593BCC /* ITCFIFOAvailableAll2.cpp */; };
+		75B7BCB61FC2D30800593BCC /* ITCGetAllChannelsConfig2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 75B7BC921FC2D30800593BCC /* ITCGetAllChannelsConfig2.cpp */; };
+		75B7BCB71FC2D30800593BCC /* ITCGetAllChannelsConfig2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 75B7BC921FC2D30800593BCC /* ITCGetAllChannelsConfig2.cpp */; };
+		75B7BCB81FC2D30800593BCC /* ITCGetChannelConfig2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 75B7BC931FC2D30800593BCC /* ITCGetChannelConfig2.cpp */; };
+		75B7BCB91FC2D30800593BCC /* ITCGetChannelConfig2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 75B7BC931FC2D30800593BCC /* ITCGetChannelConfig2.cpp */; };
+		75B7BCBA1FC2D30800593BCC /* ITCGetCurrentDevice2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 75B7BC941FC2D30800593BCC /* ITCGetCurrentDevice2.cpp */; };
+		75B7BCBB1FC2D30800593BCC /* ITCGetCurrentDevice2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 75B7BC941FC2D30800593BCC /* ITCGetCurrentDevice2.cpp */; };
+		75B7BCBC1FC2D30800593BCC /* ITCGetDeviceInfo2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 75B7BC951FC2D30800593BCC /* ITCGetDeviceInfo2.cpp */; };
+		75B7BCBD1FC2D30800593BCC /* ITCGetDeviceInfo2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 75B7BC951FC2D30800593BCC /* ITCGetDeviceInfo2.cpp */; };
+		75B7BCBE1FC2D30800593BCC /* ITCGetDevices2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 75B7BC961FC2D30800593BCC /* ITCGetDevices2.cpp */; };
+		75B7BCBF1FC2D30800593BCC /* ITCGetDevices2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 75B7BC961FC2D30800593BCC /* ITCGetDevices2.cpp */; };
+		75B7BCC01FC2D30800593BCC /* ITCGetErrorString2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 75B7BC971FC2D30800593BCC /* ITCGetErrorString2.cpp */; };
+		75B7BCC11FC2D30800593BCC /* ITCGetErrorString2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 75B7BC971FC2D30800593BCC /* ITCGetErrorString2.cpp */; };
+		75B7BCC21FC2D30800593BCC /* ITCGetSerialNumber2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 75B7BC981FC2D30800593BCC /* ITCGetSerialNumber2.cpp */; };
+		75B7BCC31FC2D30800593BCC /* ITCGetSerialNumber2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 75B7BC981FC2D30800593BCC /* ITCGetSerialNumber2.cpp */; };
+		75B7BCC41FC2D30800593BCC /* ITCGetState2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 75B7BC991FC2D30800593BCC /* ITCGetState2.cpp */; };
+		75B7BCC51FC2D30800593BCC /* ITCGetState2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 75B7BC991FC2D30800593BCC /* ITCGetState2.cpp */; };
+		75B7BCC61FC2D30800593BCC /* ITCGetVersions2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 75B7BC9A1FC2D30800593BCC /* ITCGetVersions2.cpp */; };
+		75B7BCC71FC2D30800593BCC /* ITCGetVersions2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 75B7BC9A1FC2D30800593BCC /* ITCGetVersions2.cpp */; };
+		75B7BCC81FC2D30800593BCC /* ITCInitialize2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 75B7BC9B1FC2D30800593BCC /* ITCInitialize2.cpp */; };
+		75B7BCC91FC2D30800593BCC /* ITCInitialize2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 75B7BC9B1FC2D30800593BCC /* ITCInitialize2.cpp */; };
+		75B7BCCA1FC2D30800593BCC /* ITCOpenDevice2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 75B7BC9C1FC2D30800593BCC /* ITCOpenDevice2.cpp */; };
+		75B7BCCB1FC2D30800593BCC /* ITCOpenDevice2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 75B7BC9C1FC2D30800593BCC /* ITCOpenDevice2.cpp */; };
+		75B7BCCC1FC2D30800593BCC /* ITCReadADC2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 75B7BC9D1FC2D30800593BCC /* ITCReadADC2.cpp */; };
+		75B7BCCD1FC2D30800593BCC /* ITCReadADC2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 75B7BC9D1FC2D30800593BCC /* ITCReadADC2.cpp */; };
+		75B7BCCE1FC2D30800593BCC /* ITCReadDigital2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 75B7BC9E1FC2D30800593BCC /* ITCReadDigital2.cpp */; };
+		75B7BCCF1FC2D30800593BCC /* ITCReadDigital2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 75B7BC9E1FC2D30800593BCC /* ITCReadDigital2.cpp */; };
+		75B7BCD01FC2D30800593BCC /* ITCReadTimer2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 75B7BC9F1FC2D30800593BCC /* ITCReadTimer2.cpp */; };
+		75B7BCD11FC2D30800593BCC /* ITCReadTimer2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 75B7BC9F1FC2D30800593BCC /* ITCReadTimer2.cpp */; };
+		75B7BCD21FC2D30800593BCC /* ITCSelectDevice2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 75B7BCA01FC2D30800593BCC /* ITCSelectDevice2.cpp */; };
+		75B7BCD31FC2D30800593BCC /* ITCSelectDevice2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 75B7BCA01FC2D30800593BCC /* ITCSelectDevice2.cpp */; };
+		75B7BCD41FC2D30800593BCC /* ITCSetDAC2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 75B7BCA11FC2D30800593BCC /* ITCSetDAC2.cpp */; };
+		75B7BCD51FC2D30800593BCC /* ITCSetDAC2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 75B7BCA11FC2D30800593BCC /* ITCSetDAC2.cpp */; };
+		75B7BCD61FC2D30800593BCC /* ITCSetGlobals2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 75B7BCA21FC2D30800593BCC /* ITCSetGlobals2.cpp */; };
+		75B7BCD71FC2D30800593BCC /* ITCSetGlobals2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 75B7BCA21FC2D30800593BCC /* ITCSetGlobals2.cpp */; };
+		75B7BCD81FC2D30800593BCC /* ITCSetModes2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 75B7BCA31FC2D30800593BCC /* ITCSetModes2.cpp */; };
+		75B7BCD91FC2D30800593BCC /* ITCSetModes2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 75B7BCA31FC2D30800593BCC /* ITCSetModes2.cpp */; };
+		75B7BCDA1FC2D30800593BCC /* ITCSetState2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 75B7BCA41FC2D30800593BCC /* ITCSetState2.cpp */; };
+		75B7BCDB1FC2D30800593BCC /* ITCSetState2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 75B7BCA41FC2D30800593BCC /* ITCSetState2.cpp */; };
+		75B7BCDC1FC2D30800593BCC /* ITCStartAcq2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 75B7BCA51FC2D30800593BCC /* ITCStartAcq2.cpp */; };
+		75B7BCDD1FC2D30800593BCC /* ITCStartAcq2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 75B7BCA51FC2D30800593BCC /* ITCStartAcq2.cpp */; };
+		75B7BCDE1FC2D30800593BCC /* ITCStopAcq2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 75B7BCA61FC2D30800593BCC /* ITCStopAcq2.cpp */; };
+		75B7BCDF1FC2D30800593BCC /* ITCStopAcq2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 75B7BCA61FC2D30800593BCC /* ITCStopAcq2.cpp */; };
+		75B7BCE01FC2D30800593BCC /* ITCUpdateFIFOPosition2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 75B7BCA71FC2D30800593BCC /* ITCUpdateFIFOPosition2.cpp */; };
+		75B7BCE11FC2D30800593BCC /* ITCUpdateFIFOPosition2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 75B7BCA71FC2D30800593BCC /* ITCUpdateFIFOPosition2.cpp */; };
+		75B7BCE21FC2D30800593BCC /* ITCUpdateFIFOPositionAll2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 75B7BCA81FC2D30800593BCC /* ITCUpdateFIFOPositionAll2.cpp */; };
+		75B7BCE31FC2D30800593BCC /* ITCUpdateFIFOPositionAll2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 75B7BCA81FC2D30800593BCC /* ITCUpdateFIFOPositionAll2.cpp */; };
+		75B7BCE41FC2D30800593BCC /* ITCWriteDigital2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 75B7BCA91FC2D30800593BCC /* ITCWriteDigital2.cpp */; };
+		75B7BCE51FC2D30800593BCC /* ITCWriteDigital2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 75B7BCA91FC2D30800593BCC /* ITCWriteDigital2.cpp */; };
+		75B7BCE71FC2D4A600593BCC /* RegisterOperations.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 75B7BCE61FC2D4A600593BCC /* RegisterOperations.cpp */; };
+		75B7BCE81FC2D4A600593BCC /* RegisterOperations.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 75B7BCE61FC2D4A600593BCC /* RegisterOperations.cpp */; };
+		75B7BCEA1FC2D4E900593BCC /* itcXOP2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 75B7BCE91FC2D4E900593BCC /* itcXOP2.cpp */; };
+		75B7BCEB1FC2D4E900593BCC /* itcXOP2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 75B7BCE91FC2D4E900593BCC /* itcXOP2.cpp */; };
+		75B7BCEC1FC38A4B00593BCC /* itcXOP2_Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = 32BAE0B30371A71500C91783 /* itcXOP2_Prefix.pch */; };
+		892A6A0F192E8A71006473F5 /* libXOPSupport64.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 892A6A0E192E8A71006473F5 /* libXOPSupport64.a */; };
+		89A4B71E192E7A2000F9B195 /* itcXOP2_Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = 32BAE0B30371A71500C91783 /* itcXOP2_Prefix.pch */; };
+		89A4B720192E7A2000F9B195 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C167DFE841241C02AAC07 /* InfoPlist.strings */; };
+		8D01CCCA0486CAD60068D4B7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C167DFE841241C02AAC07 /* InfoPlist.strings */; };
+		AA9C27DE058687A100D1BF00 /* libXOPSupport.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AA9C27DD058687A100D1BF00 /* libXOPSupport.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		89A4B728192E7A2000F9B195 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = Contents;
+			dstSubfolderSpec = 1;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA9C27E9058688BE00D1BF00 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = Contents;
+			dstSubfolderSpec = 1;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		089C167EFE841241C02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		32BAE0B30371A71500C91783 /* itcXOP2_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = itcXOP2_Prefix.pch; sourceTree = "<group>"; };
+		7520D11C1FBBDD910024FB87 /* Carbon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Carbon.framework; path = System/Library/Frameworks/Carbon.framework; sourceTree = SDKROOT; };
+		7520D11E1FBBDD9B0024FB87 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		7520D1221FBBDDCD0024FB87 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		7520D1251FBBE4C30024FB87 /* itcXOP2.r */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.rez; name = itcXOP2.r; path = ../src/mac.r/itcXOP2.r; sourceTree = "<group>"; };
+		7520D12E1FBC0F880024FB87 /* ConcurrentQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ConcurrentQueue.h; path = ../src/ConcurrentQueue.h; sourceTree = "<group>"; };
+		7520D1301FBC0F880024FB87 /* ConcurrentXOPNotice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ConcurrentXOPNotice.h; path = ../src/ConcurrentXOPNotice.h; sourceTree = "<group>"; };
+		7520D14A1FBC10730024FB87 /* ErrorDisplayClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ErrorDisplayClass.h; path = ../src/ErrorDisplayClass.h; sourceTree = "<group>"; };
+		7520D16D1FBC38DC0024FB87 /* ConcurrentXOPNotice.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ConcurrentXOPNotice.cpp; path = ../src/ConcurrentXOPNotice.cpp; sourceTree = "<group>"; };
+		7520D18B1FBC3A8A0024FB87 /* ErrorDisplayClass.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ErrorDisplayClass.cpp; path = ../src/ErrorDisplayClass.cpp; sourceTree = "<group>"; };
+		75B7BC2D1FBFB60B00593BCC /* RegisterOperations.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RegisterOperations.h; path = ../src/RegisterOperations.h; sourceTree = "<group>"; };
+		75B7BC321FBFB6C400593BCC /* CustomExceptions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CustomExceptions.h; path = ../src/CustomExceptions.h; sourceTree = "<group>"; };
+		75B7BC351FBFB97F00593BCC /* ITC.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ITC.framework; path = ../../../../../../../../../Library/Frameworks/ITC.framework; sourceTree = "<group>"; };
+		75B7BC3B1FC248AF00593BCC /* ITC_StandardHeaders.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ITC_StandardHeaders.h; path = ../src/ITC_StandardHeaders.h; sourceTree = "<group>"; };
+		75B7BC3E1FC2494B00593BCC /* DeviceIDClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DeviceIDClass.h; path = ../src/DeviceIDClass.h; sourceTree = "<group>"; };
+		75B7BC411FC2498C00593BCC /* itcXOP2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = itcXOP2.h; path = ../src/itcXOP2.h; sourceTree = "<group>"; };
+		75B7BC441FC249DE00593BCC /* DeviceIDClass.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = DeviceIDClass.cpp; path = ../src/DeviceIDClass.cpp; sourceTree = "<group>"; };
+		75B7BC4A1FC24AFC00593BCC /* CustomExceptions.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = CustomExceptions.cpp; path = ../src/CustomExceptions.cpp; sourceTree = "<group>"; };
+		75B7BC4E1FC24CBA00593BCC /* itcdll.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = itcdll.h; path = ../src/itcdll.h; sourceTree = "<group>"; };
+		75B7BC521FC24D4700593BCC /* ITCDeviceTypeEnum.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ITCDeviceTypeEnum.h; path = ../src/ITCDeviceTypeEnum.h; sourceTree = "<group>"; };
+		75B7BC571FC24DD000593BCC /* HelperFunctions.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = HelperFunctions.cpp; path = ../src/HelperFunctions.cpp; sourceTree = "<group>"; };
+		75B7BC581FC24DD000593BCC /* HelperFunctions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HelperFunctions.h; path = ../src/HelperFunctions.h; sourceTree = "<group>"; };
+		75B7BC5D1FC255FA00593BCC /* ITCDeviceTypeEnum.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ITCDeviceTypeEnum.cpp; path = ../src/ITCDeviceTypeEnum.cpp; sourceTree = "<group>"; };
+		75B7BC601FC2563100593BCC /* ITCChannelTypeEnum.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ITCChannelTypeEnum.cpp; path = ../src/ITCChannelTypeEnum.cpp; sourceTree = "<group>"; };
+		75B7BC611FC2563100593BCC /* ITCChannelTypeEnum.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ITCChannelTypeEnum.h; path = ../src/ITCChannelTypeEnum.h; sourceTree = "<group>"; };
+		75B7BC661FC2571F00593BCC /* DeviceIDHelper.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = DeviceIDHelper.cpp; path = ../src/DeviceIDHelper.cpp; sourceTree = "<group>"; };
+		75B7BC671FC2571F00593BCC /* DeviceIDHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DeviceIDHelper.h; path = ../src/DeviceIDHelper.h; sourceTree = "<group>"; };
+		75B7BC6C1FC25A5400593BCC /* itcdll.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = itcdll.cpp; path = ../src/itcdll.cpp; sourceTree = "<group>"; };
+		75B7BC771FC2CDA100593BCC /* libfmt.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libfmt.a; path = ../lib/src/fmt/build/fmt/libfmt.a; sourceTree = "<group>"; };
+		75B7BC7A1FC2D1E900593BCC /* HelperFunctions_DAC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HelperFunctions_DAC.h; path = ../src/HelperFunctions_DAC.h; sourceTree = "<group>"; };
+		75B7BC7D1FC2D20E00593BCC /* ChannelSelection.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ChannelSelection.cpp; path = ../src/ChannelSelection.cpp; sourceTree = "<group>"; };
+		75B7BC7E1FC2D20E00593BCC /* ChannelSelection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ChannelSelection.h; path = ../src/ChannelSelection.h; sourceTree = "<group>"; };
+		75B7BC861FC2D2A800593BCC /* ITCCloseAll2.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ITCCloseAll2.cpp; path = ../src/ITCCloseAll2.cpp; sourceTree = "<group>"; };
+		75B7BC891FC2D2CE00593BCC /* ITCCloseDevice2.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ITCCloseDevice2.cpp; path = ../src/ITCCloseDevice2.cpp; sourceTree = "<group>"; };
+		75B7BC8C1FC2D30800593BCC /* ITCConfigAllChannels2.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ITCConfigAllChannels2.cpp; path = ../src/ITCConfigAllChannels2.cpp; sourceTree = "<group>"; };
+		75B7BC8D1FC2D30800593BCC /* ITCConfigChannel2.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ITCConfigChannel2.cpp; path = ../src/ITCConfigChannel2.cpp; sourceTree = "<group>"; };
+		75B7BC8E1FC2D30800593BCC /* ITCConfigChannelReset2.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ITCConfigChannelReset2.cpp; path = ../src/ITCConfigChannelReset2.cpp; sourceTree = "<group>"; };
+		75B7BC8F1FC2D30800593BCC /* ITCConfigChannelUpload2.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ITCConfigChannelUpload2.cpp; path = ../src/ITCConfigChannelUpload2.cpp; sourceTree = "<group>"; };
+		75B7BC901FC2D30800593BCC /* ITCFIFOAvailable2.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ITCFIFOAvailable2.cpp; path = ../src/ITCFIFOAvailable2.cpp; sourceTree = "<group>"; };
+		75B7BC911FC2D30800593BCC /* ITCFIFOAvailableAll2.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ITCFIFOAvailableAll2.cpp; path = ../src/ITCFIFOAvailableAll2.cpp; sourceTree = "<group>"; };
+		75B7BC921FC2D30800593BCC /* ITCGetAllChannelsConfig2.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ITCGetAllChannelsConfig2.cpp; path = ../src/ITCGetAllChannelsConfig2.cpp; sourceTree = "<group>"; };
+		75B7BC931FC2D30800593BCC /* ITCGetChannelConfig2.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ITCGetChannelConfig2.cpp; path = ../src/ITCGetChannelConfig2.cpp; sourceTree = "<group>"; };
+		75B7BC941FC2D30800593BCC /* ITCGetCurrentDevice2.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ITCGetCurrentDevice2.cpp; path = ../src/ITCGetCurrentDevice2.cpp; sourceTree = "<group>"; };
+		75B7BC951FC2D30800593BCC /* ITCGetDeviceInfo2.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ITCGetDeviceInfo2.cpp; path = ../src/ITCGetDeviceInfo2.cpp; sourceTree = "<group>"; };
+		75B7BC961FC2D30800593BCC /* ITCGetDevices2.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ITCGetDevices2.cpp; path = ../src/ITCGetDevices2.cpp; sourceTree = "<group>"; };
+		75B7BC971FC2D30800593BCC /* ITCGetErrorString2.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ITCGetErrorString2.cpp; path = ../src/ITCGetErrorString2.cpp; sourceTree = "<group>"; };
+		75B7BC981FC2D30800593BCC /* ITCGetSerialNumber2.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ITCGetSerialNumber2.cpp; path = ../src/ITCGetSerialNumber2.cpp; sourceTree = "<group>"; };
+		75B7BC991FC2D30800593BCC /* ITCGetState2.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ITCGetState2.cpp; path = ../src/ITCGetState2.cpp; sourceTree = "<group>"; };
+		75B7BC9A1FC2D30800593BCC /* ITCGetVersions2.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ITCGetVersions2.cpp; path = ../src/ITCGetVersions2.cpp; sourceTree = "<group>"; };
+		75B7BC9B1FC2D30800593BCC /* ITCInitialize2.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ITCInitialize2.cpp; path = ../src/ITCInitialize2.cpp; sourceTree = "<group>"; };
+		75B7BC9C1FC2D30800593BCC /* ITCOpenDevice2.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ITCOpenDevice2.cpp; path = ../src/ITCOpenDevice2.cpp; sourceTree = "<group>"; };
+		75B7BC9D1FC2D30800593BCC /* ITCReadADC2.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ITCReadADC2.cpp; path = ../src/ITCReadADC2.cpp; sourceTree = "<group>"; };
+		75B7BC9E1FC2D30800593BCC /* ITCReadDigital2.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ITCReadDigital2.cpp; path = ../src/ITCReadDigital2.cpp; sourceTree = "<group>"; };
+		75B7BC9F1FC2D30800593BCC /* ITCReadTimer2.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ITCReadTimer2.cpp; path = ../src/ITCReadTimer2.cpp; sourceTree = "<group>"; };
+		75B7BCA01FC2D30800593BCC /* ITCSelectDevice2.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ITCSelectDevice2.cpp; path = ../src/ITCSelectDevice2.cpp; sourceTree = "<group>"; };
+		75B7BCA11FC2D30800593BCC /* ITCSetDAC2.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ITCSetDAC2.cpp; path = ../src/ITCSetDAC2.cpp; sourceTree = "<group>"; };
+		75B7BCA21FC2D30800593BCC /* ITCSetGlobals2.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ITCSetGlobals2.cpp; path = ../src/ITCSetGlobals2.cpp; sourceTree = "<group>"; };
+		75B7BCA31FC2D30800593BCC /* ITCSetModes2.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ITCSetModes2.cpp; path = ../src/ITCSetModes2.cpp; sourceTree = "<group>"; };
+		75B7BCA41FC2D30800593BCC /* ITCSetState2.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ITCSetState2.cpp; path = ../src/ITCSetState2.cpp; sourceTree = "<group>"; };
+		75B7BCA51FC2D30800593BCC /* ITCStartAcq2.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ITCStartAcq2.cpp; path = ../src/ITCStartAcq2.cpp; sourceTree = "<group>"; };
+		75B7BCA61FC2D30800593BCC /* ITCStopAcq2.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ITCStopAcq2.cpp; path = ../src/ITCStopAcq2.cpp; sourceTree = "<group>"; };
+		75B7BCA71FC2D30800593BCC /* ITCUpdateFIFOPosition2.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ITCUpdateFIFOPosition2.cpp; path = ../src/ITCUpdateFIFOPosition2.cpp; sourceTree = "<group>"; };
+		75B7BCA81FC2D30800593BCC /* ITCUpdateFIFOPositionAll2.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ITCUpdateFIFOPositionAll2.cpp; path = ../src/ITCUpdateFIFOPositionAll2.cpp; sourceTree = "<group>"; };
+		75B7BCA91FC2D30800593BCC /* ITCWriteDigital2.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ITCWriteDigital2.cpp; path = ../src/ITCWriteDigital2.cpp; sourceTree = "<group>"; };
+		75B7BCE61FC2D4A600593BCC /* RegisterOperations.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = RegisterOperations.cpp; path = ../src/RegisterOperations.cpp; sourceTree = "<group>"; };
+		75B7BCE91FC2D4E900593BCC /* itcXOP2.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = itcXOP2.cpp; path = ../src/itcXOP2.cpp; sourceTree = "<group>"; };
+		892A6A0E192E8A71006473F5 /* libXOPSupport64.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libXOPSupport64.a; path = ../../XOPSupport/Xcode/libXOPSupport64.a; sourceTree = "<group>"; };
+		89A4B72D192E7A2000F9B195 /* itcXOP2-64.xop */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "itcXOP2-64.xop"; sourceTree = BUILT_PRODUCTS_DIR; };
+		89A4B72E192E7A2100F9B195 /* Info64.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info64.plist; sourceTree = SOURCE_ROOT; };
+		8D01CCD10486CAD60068D4B7 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		8D01CCD20486CAD60068D4B7 /* itcXOP2.xop */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = itcXOP2.xop; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA9C27DD058687A100D1BF00 /* libXOPSupport.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libXOPSupport.a; path = ../../XOPSupport/Xcode/libXOPSupport.a; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		89A4B723192E7A2000F9B195 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7520D1211FBBDDAF0024FB87 /* Cocoa.framework in Frameworks */,
+				7520D1201FBBDDAA0024FB87 /* Carbon.framework in Frameworks */,
+				7520D1241FBBDDDB0024FB87 /* AudioToolbox.framework in Frameworks */,
+				75B7BC371FBFB97F00593BCC /* ITC.framework in Frameworks */,
+				892A6A0F192E8A71006473F5 /* libXOPSupport64.a in Frameworks */,
+				75B7BC791FC2CDA100593BCC /* libfmt.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D01CCCD0486CAD60068D4B7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7520D11F1FBBDD9B0024FB87 /* Cocoa.framework in Frameworks */,
+				7520D11D1FBBDD910024FB87 /* Carbon.framework in Frameworks */,
+				7520D1231FBBDDCD0024FB87 /* AudioToolbox.framework in Frameworks */,
+				75B7BC361FBFB97F00593BCC /* ITC.framework in Frameworks */,
+				AA9C27DE058687A100D1BF00 /* libXOPSupport.a in Frameworks */,
+				75B7BC781FC2CDA100593BCC /* libfmt.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		089C166AFE841209C02AAC07 /* SimpleFit */ = {
+			isa = PBXGroup;
+			children = (
+				08FB77ADFE841716C02AAC07 /* Source */,
+				089C167CFE841241C02AAC07 /* Resources */,
+				7520D11B1FBBDD910024FB87 /* Frameworks */,
+				089C1671FE841209C02AAC07 /* External Frameworks and Libraries */,
+				19C28FB4FE9D528D11CA2CBB /* Products */,
+			);
+			name = SimpleFit;
+			sourceTree = "<group>";
+			usesTabs = 1;
+			wrapsLines = 0;
+		};
+		089C1671FE841209C02AAC07 /* External Frameworks and Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				75B7BC771FC2CDA100593BCC /* libfmt.a */,
+				AA9C27DD058687A100D1BF00 /* libXOPSupport.a */,
+				892A6A0E192E8A71006473F5 /* libXOPSupport64.a */,
+				75B7BC351FBFB97F00593BCC /* ITC.framework */,
+			);
+			name = "External Frameworks and Libraries";
+			sourceTree = "<group>";
+		};
+		089C167CFE841241C02AAC07 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				7520D1251FBBE4C30024FB87 /* itcXOP2.r */,
+				8D01CCD10486CAD60068D4B7 /* Info.plist */,
+				89A4B72E192E7A2100F9B195 /* Info64.plist */,
+				089C167DFE841241C02AAC07 /* InfoPlist.strings */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		08FB77ADFE841716C02AAC07 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				75B7BC7D1FC2D20E00593BCC /* ChannelSelection.cpp */,
+				75B7BC7E1FC2D20E00593BCC /* ChannelSelection.h */,
+				7520D12E1FBC0F880024FB87 /* ConcurrentQueue.h */,
+				7520D16D1FBC38DC0024FB87 /* ConcurrentXOPNotice.cpp */,
+				7520D1301FBC0F880024FB87 /* ConcurrentXOPNotice.h */,
+				75B7BC4A1FC24AFC00593BCC /* CustomExceptions.cpp */,
+				75B7BC321FBFB6C400593BCC /* CustomExceptions.h */,
+				75B7BC441FC249DE00593BCC /* DeviceIDClass.cpp */,
+				75B7BC3E1FC2494B00593BCC /* DeviceIDClass.h */,
+				75B7BC661FC2571F00593BCC /* DeviceIDHelper.cpp */,
+				75B7BC671FC2571F00593BCC /* DeviceIDHelper.h */,
+				7520D18B1FBC3A8A0024FB87 /* ErrorDisplayClass.cpp */,
+				7520D14A1FBC10730024FB87 /* ErrorDisplayClass.h */,
+				75B7BC7A1FC2D1E900593BCC /* HelperFunctions_DAC.h */,
+				75B7BC571FC24DD000593BCC /* HelperFunctions.cpp */,
+				75B7BC581FC24DD000593BCC /* HelperFunctions.h */,
+				75B7BC3B1FC248AF00593BCC /* ITC_StandardHeaders.h */,
+				75B7BC601FC2563100593BCC /* ITCChannelTypeEnum.cpp */,
+				75B7BC611FC2563100593BCC /* ITCChannelTypeEnum.h */,
+				75B7BC861FC2D2A800593BCC /* ITCCloseAll2.cpp */,
+				75B7BC891FC2D2CE00593BCC /* ITCCloseDevice2.cpp */,
+				75B7BC8C1FC2D30800593BCC /* ITCConfigAllChannels2.cpp */,
+				75B7BC8D1FC2D30800593BCC /* ITCConfigChannel2.cpp */,
+				75B7BC8E1FC2D30800593BCC /* ITCConfigChannelReset2.cpp */,
+				75B7BC8F1FC2D30800593BCC /* ITCConfigChannelUpload2.cpp */,
+				75B7BC5D1FC255FA00593BCC /* ITCDeviceTypeEnum.cpp */,
+				75B7BC521FC24D4700593BCC /* ITCDeviceTypeEnum.h */,
+				75B7BC6C1FC25A5400593BCC /* itcdll.cpp */,
+				75B7BC4E1FC24CBA00593BCC /* itcdll.h */,
+				75B7BC901FC2D30800593BCC /* ITCFIFOAvailable2.cpp */,
+				75B7BC911FC2D30800593BCC /* ITCFIFOAvailableAll2.cpp */,
+				75B7BC921FC2D30800593BCC /* ITCGetAllChannelsConfig2.cpp */,
+				75B7BC931FC2D30800593BCC /* ITCGetChannelConfig2.cpp */,
+				75B7BC941FC2D30800593BCC /* ITCGetCurrentDevice2.cpp */,
+				75B7BC951FC2D30800593BCC /* ITCGetDeviceInfo2.cpp */,
+				75B7BC961FC2D30800593BCC /* ITCGetDevices2.cpp */,
+				75B7BC971FC2D30800593BCC /* ITCGetErrorString2.cpp */,
+				75B7BC981FC2D30800593BCC /* ITCGetSerialNumber2.cpp */,
+				75B7BC991FC2D30800593BCC /* ITCGetState2.cpp */,
+				75B7BC9A1FC2D30800593BCC /* ITCGetVersions2.cpp */,
+				75B7BC9B1FC2D30800593BCC /* ITCInitialize2.cpp */,
+				75B7BC9C1FC2D30800593BCC /* ITCOpenDevice2.cpp */,
+				75B7BC9D1FC2D30800593BCC /* ITCReadADC2.cpp */,
+				75B7BC9E1FC2D30800593BCC /* ITCReadDigital2.cpp */,
+				75B7BC9F1FC2D30800593BCC /* ITCReadTimer2.cpp */,
+				75B7BCA01FC2D30800593BCC /* ITCSelectDevice2.cpp */,
+				75B7BCA11FC2D30800593BCC /* ITCSetDAC2.cpp */,
+				75B7BCA21FC2D30800593BCC /* ITCSetGlobals2.cpp */,
+				75B7BCA31FC2D30800593BCC /* ITCSetModes2.cpp */,
+				75B7BCA41FC2D30800593BCC /* ITCSetState2.cpp */,
+				75B7BCA51FC2D30800593BCC /* ITCStartAcq2.cpp */,
+				75B7BCA61FC2D30800593BCC /* ITCStopAcq2.cpp */,
+				75B7BCA71FC2D30800593BCC /* ITCUpdateFIFOPosition2.cpp */,
+				75B7BCA81FC2D30800593BCC /* ITCUpdateFIFOPositionAll2.cpp */,
+				75B7BCA91FC2D30800593BCC /* ITCWriteDigital2.cpp */,
+				32BAE0B30371A71500C91783 /* itcXOP2_Prefix.pch */,
+				75B7BCE91FC2D4E900593BCC /* itcXOP2.cpp */,
+				75B7BC411FC2498C00593BCC /* itcXOP2.h */,
+				75B7BCE61FC2D4A600593BCC /* RegisterOperations.cpp */,
+				75B7BC2D1FBFB60B00593BCC /* RegisterOperations.h */,
+			);
+			name = Source;
+			sourceTree = "<group>";
+		};
+		19C28FB4FE9D528D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D01CCD20486CAD60068D4B7 /* itcXOP2.xop */,
+				89A4B72D192E7A2000F9B195 /* itcXOP2-64.xop */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7520D11B1FBBDD910024FB87 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7520D1221FBBDDCD0024FB87 /* AudioToolbox.framework */,
+				7520D11E1FBBDD9B0024FB87 /* Cocoa.framework */,
+				7520D11C1FBBDD910024FB87 /* Carbon.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		89A4B71D192E7A2000F9B195 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89A4B71E192E7A2000F9B195 /* itcXOP2_Prefix.pch in Headers */,
+				7520D1361FBC0F880024FB87 /* ConcurrentQueue.h in Headers */,
+				75B7BC401FC2494B00593BCC /* DeviceIDClass.h in Headers */,
+				75B7BC431FC2498C00593BCC /* itcXOP2.h in Headers */,
+				75B7BC341FBFB6C400593BCC /* CustomExceptions.h in Headers */,
+				7520D13A1FBC0F880024FB87 /* ConcurrentXOPNotice.h in Headers */,
+				75B7BC821FC2D20E00593BCC /* ChannelSelection.h in Headers */,
+				75B7BC501FC24CBA00593BCC /* itcdll.h in Headers */,
+				75B7BC5C1FC24DD000593BCC /* HelperFunctions.h in Headers */,
+				75B7BC561FC24D4700593BCC /* ITCDeviceTypeEnum.h in Headers */,
+				75B7BC651FC2563100593BCC /* ITCChannelTypeEnum.h in Headers */,
+				75B7BC7C1FC2D1E900593BCC /* HelperFunctions_DAC.h in Headers */,
+				7520D14E1FBC10730024FB87 /* ErrorDisplayClass.h in Headers */,
+				75B7BC6B1FC2571F00593BCC /* DeviceIDHelper.h in Headers */,
+				75B7BC311FBFB60B00593BCC /* RegisterOperations.h in Headers */,
+				75B7BC3D1FC248AF00593BCC /* ITC_StandardHeaders.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D01CCC70486CAD60068D4B7 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75B7BCEC1FC38A4B00593BCC /* itcXOP2_Prefix.pch in Headers */,
+				75B7BC5B1FC24DD000593BCC /* HelperFunctions.h in Headers */,
+				75B7BC3F1FC2494B00593BCC /* DeviceIDClass.h in Headers */,
+				75B7BC251FBFB52C00593BCC /* ConcurrentQueue.h in Headers */,
+				75B7BC551FC24D4700593BCC /* ITCDeviceTypeEnum.h in Headers */,
+				75B7BC4F1FC24CBA00593BCC /* itcdll.h in Headers */,
+				75B7BC7B1FC2D1E900593BCC /* HelperFunctions_DAC.h in Headers */,
+				75B7BC261FBFB52C00593BCC /* ConcurrentXOPNotice.h in Headers */,
+				75B7BC811FC2D20E00593BCC /* ChannelSelection.h in Headers */,
+				75B7BC301FBFB60B00593BCC /* RegisterOperations.h in Headers */,
+				75B7BC641FC2563100593BCC /* ITCChannelTypeEnum.h in Headers */,
+				75B7BC3C1FC248AF00593BCC /* ITC_StandardHeaders.h in Headers */,
+				75B7BC331FBFB6C400593BCC /* CustomExceptions.h in Headers */,
+				75B7BC271FBFB52C00593BCC /* ErrorDisplayClass.h in Headers */,
+				75B7BC6A1FC2571F00593BCC /* DeviceIDHelper.h in Headers */,
+				75B7BC421FC2498C00593BCC /* itcXOP2.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		89A4B71C192E7A2000F9B195 /* itcXOP2-64 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 89A4B729192E7A2000F9B195 /* Build configuration list for PBXNativeTarget "itcXOP2-64" */;
+			buildPhases = (
+				89A4B71D192E7A2000F9B195 /* Headers */,
+				89A4B71F192E7A2000F9B195 /* Resources */,
+				89A4B721192E7A2000F9B195 /* Sources */,
+				89A4B723192E7A2000F9B195 /* Frameworks */,
+				89A4B726192E7A2000F9B195 /* Rez */,
+				89A4B728192E7A2000F9B195 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "itcXOP2-64";
+			productInstallPath = "$(HOME)/Library/Bundles";
+			productName = SimpleFit;
+			productReference = 89A4B72D192E7A2000F9B195 /* itcXOP2-64.xop */;
+			productType = "com.apple.product-type.bundle";
+		};
+		8D01CCC60486CAD60068D4B7 /* itcXOP2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 89CFA48B093E818800C225E0 /* Build configuration list for PBXNativeTarget "itcXOP2" */;
+			buildPhases = (
+				8D01CCC70486CAD60068D4B7 /* Headers */,
+				8D01CCC90486CAD60068D4B7 /* Resources */,
+				8D01CCCB0486CAD60068D4B7 /* Sources */,
+				8D01CCCD0486CAD60068D4B7 /* Frameworks */,
+				8D01CCCF0486CAD60068D4B7 /* Rez */,
+				AA9C27E9058688BE00D1BF00 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = itcXOP2;
+			productInstallPath = "$(HOME)/Library/Bundles";
+			productName = SimpleFit;
+			productReference = 8D01CCD20486CAD60068D4B7 /* itcXOP2.xop */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		089C1669FE841209C02AAC07 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 89CFA48F093E818800C225E0 /* Build configuration list for PBXProject "itcXOP2" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 089C166AFE841209C02AAC07 /* SimpleFit */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8D01CCC60486CAD60068D4B7 /* itcXOP2 */,
+				89A4B71C192E7A2000F9B195 /* itcXOP2-64 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		89A4B71F192E7A2000F9B195 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89A4B720192E7A2000F9B195 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D01CCC90486CAD60068D4B7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D01CCCA0486CAD60068D4B7 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXRezBuildPhase section */
+		89A4B726192E7A2000F9B195 /* Rez */ = {
+			isa = PBXRezBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7520D1271FBBE4C30024FB87 /* itcXOP2.r in Rez */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D01CCCF0486CAD60068D4B7 /* Rez */ = {
+			isa = PBXRezBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7520D1261FBBE4C30024FB87 /* itcXOP2.r in Rez */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXRezBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		89A4B721192E7A2000F9B195 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75B7BCBF1FC2D30800593BCC /* ITCGetDevices2.cpp in Sources */,
+				75B7BCD71FC2D30800593BCC /* ITCSetGlobals2.cpp in Sources */,
+				75B7BCC31FC2D30800593BCC /* ITCGetSerialNumber2.cpp in Sources */,
+				7520D18D1FBC3A8A0024FB87 /* ErrorDisplayClass.cpp in Sources */,
+				75B7BC4C1FC24AFC00593BCC /* CustomExceptions.cpp in Sources */,
+				75B7BC461FC249DE00593BCC /* DeviceIDClass.cpp in Sources */,
+				75B7BCC91FC2D30800593BCC /* ITCInitialize2.cpp in Sources */,
+				75B7BCCD1FC2D30800593BCC /* ITCReadADC2.cpp in Sources */,
+				75B7BCE81FC2D4A600593BCC /* RegisterOperations.cpp in Sources */,
+				75B7BC801FC2D20E00593BCC /* ChannelSelection.cpp in Sources */,
+				75B7BC5F1FC255FA00593BCC /* ITCDeviceTypeEnum.cpp in Sources */,
+				75B7BC691FC2571F00593BCC /* DeviceIDHelper.cpp in Sources */,
+				75B7BCCB1FC2D30800593BCC /* ITCOpenDevice2.cpp in Sources */,
+				75B7BCB91FC2D30800593BCC /* ITCGetChannelConfig2.cpp in Sources */,
+				75B7BCDF1FC2D30800593BCC /* ITCStopAcq2.cpp in Sources */,
+				75B7BC881FC2D2A800593BCC /* ITCCloseAll2.cpp in Sources */,
+				75B7BCDD1FC2D30800593BCC /* ITCStartAcq2.cpp in Sources */,
+				7520D16F1FBC38DC0024FB87 /* ConcurrentXOPNotice.cpp in Sources */,
+				75B7BCD11FC2D30800593BCC /* ITCReadTimer2.cpp in Sources */,
+				75B7BCB31FC2D30800593BCC /* ITCFIFOAvailable2.cpp in Sources */,
+				75B7BCE51FC2D30800593BCC /* ITCWriteDigital2.cpp in Sources */,
+				75B7BCCF1FC2D30800593BCC /* ITCReadDigital2.cpp in Sources */,
+				75B7BCB71FC2D30800593BCC /* ITCGetAllChannelsConfig2.cpp in Sources */,
+				75B7BCDB1FC2D30800593BCC /* ITCSetState2.cpp in Sources */,
+				75B7BC6E1FC25A5400593BCC /* itcdll.cpp in Sources */,
+				75B7BCC71FC2D30800593BCC /* ITCGetVersions2.cpp in Sources */,
+				75B7BCB11FC2D30800593BCC /* ITCConfigChannelUpload2.cpp in Sources */,
+				75B7BCE11FC2D30800593BCC /* ITCUpdateFIFOPosition2.cpp in Sources */,
+				75B7BC5A1FC24DD000593BCC /* HelperFunctions.cpp in Sources */,
+				75B7BCD91FC2D30800593BCC /* ITCSetModes2.cpp in Sources */,
+				75B7BCAD1FC2D30800593BCC /* ITCConfigChannel2.cpp in Sources */,
+				75B7BCBD1FC2D30800593BCC /* ITCGetDeviceInfo2.cpp in Sources */,
+				75B7BCE31FC2D30800593BCC /* ITCUpdateFIFOPositionAll2.cpp in Sources */,
+				75B7BCAB1FC2D30800593BCC /* ITCConfigAllChannels2.cpp in Sources */,
+				75B7BCC51FC2D30800593BCC /* ITCGetState2.cpp in Sources */,
+				75B7BC631FC2563100593BCC /* ITCChannelTypeEnum.cpp in Sources */,
+				75B7BCC11FC2D30800593BCC /* ITCGetErrorString2.cpp in Sources */,
+				75B7BCB51FC2D30800593BCC /* ITCFIFOAvailableAll2.cpp in Sources */,
+				75B7BC8B1FC2D2CE00593BCC /* ITCCloseDevice2.cpp in Sources */,
+				75B7BCD51FC2D30800593BCC /* ITCSetDAC2.cpp in Sources */,
+				75B7BCD31FC2D30800593BCC /* ITCSelectDevice2.cpp in Sources */,
+				75B7BCEB1FC2D4E900593BCC /* itcXOP2.cpp in Sources */,
+				75B7BCBB1FC2D30800593BCC /* ITCGetCurrentDevice2.cpp in Sources */,
+				75B7BCAF1FC2D30800593BCC /* ITCConfigChannelReset2.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D01CCCB0486CAD60068D4B7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75B7BCBE1FC2D30800593BCC /* ITCGetDevices2.cpp in Sources */,
+				75B7BCD61FC2D30800593BCC /* ITCSetGlobals2.cpp in Sources */,
+				75B7BCC21FC2D30800593BCC /* ITCGetSerialNumber2.cpp in Sources */,
+				75B7BC291FBFB53D00593BCC /* ConcurrentXOPNotice.cpp in Sources */,
+				75B7BC4B1FC24AFC00593BCC /* CustomExceptions.cpp in Sources */,
+				75B7BC451FC249DE00593BCC /* DeviceIDClass.cpp in Sources */,
+				75B7BCC81FC2D30800593BCC /* ITCInitialize2.cpp in Sources */,
+				75B7BCCC1FC2D30800593BCC /* ITCReadADC2.cpp in Sources */,
+				75B7BCE71FC2D4A600593BCC /* RegisterOperations.cpp in Sources */,
+				75B7BC7F1FC2D20E00593BCC /* ChannelSelection.cpp in Sources */,
+				75B7BC5E1FC255FA00593BCC /* ITCDeviceTypeEnum.cpp in Sources */,
+				75B7BC681FC2571F00593BCC /* DeviceIDHelper.cpp in Sources */,
+				75B7BCCA1FC2D30800593BCC /* ITCOpenDevice2.cpp in Sources */,
+				75B7BCB81FC2D30800593BCC /* ITCGetChannelConfig2.cpp in Sources */,
+				75B7BCDE1FC2D30800593BCC /* ITCStopAcq2.cpp in Sources */,
+				75B7BC871FC2D2A800593BCC /* ITCCloseAll2.cpp in Sources */,
+				75B7BCDC1FC2D30800593BCC /* ITCStartAcq2.cpp in Sources */,
+				75B7BC2A1FBFB53D00593BCC /* ErrorDisplayClass.cpp in Sources */,
+				75B7BCD01FC2D30800593BCC /* ITCReadTimer2.cpp in Sources */,
+				75B7BCB21FC2D30800593BCC /* ITCFIFOAvailable2.cpp in Sources */,
+				75B7BCE41FC2D30800593BCC /* ITCWriteDigital2.cpp in Sources */,
+				75B7BCCE1FC2D30800593BCC /* ITCReadDigital2.cpp in Sources */,
+				75B7BCB61FC2D30800593BCC /* ITCGetAllChannelsConfig2.cpp in Sources */,
+				75B7BCDA1FC2D30800593BCC /* ITCSetState2.cpp in Sources */,
+				75B7BC6D1FC25A5400593BCC /* itcdll.cpp in Sources */,
+				75B7BCC61FC2D30800593BCC /* ITCGetVersions2.cpp in Sources */,
+				75B7BCB01FC2D30800593BCC /* ITCConfigChannelUpload2.cpp in Sources */,
+				75B7BCE01FC2D30800593BCC /* ITCUpdateFIFOPosition2.cpp in Sources */,
+				75B7BC591FC24DD000593BCC /* HelperFunctions.cpp in Sources */,
+				75B7BCD81FC2D30800593BCC /* ITCSetModes2.cpp in Sources */,
+				75B7BCAC1FC2D30800593BCC /* ITCConfigChannel2.cpp in Sources */,
+				75B7BCBC1FC2D30800593BCC /* ITCGetDeviceInfo2.cpp in Sources */,
+				75B7BCE21FC2D30800593BCC /* ITCUpdateFIFOPositionAll2.cpp in Sources */,
+				75B7BCAA1FC2D30800593BCC /* ITCConfigAllChannels2.cpp in Sources */,
+				75B7BCC41FC2D30800593BCC /* ITCGetState2.cpp in Sources */,
+				75B7BC621FC2563100593BCC /* ITCChannelTypeEnum.cpp in Sources */,
+				75B7BCC01FC2D30800593BCC /* ITCGetErrorString2.cpp in Sources */,
+				75B7BCB41FC2D30800593BCC /* ITCFIFOAvailableAll2.cpp in Sources */,
+				75B7BC8A1FC2D2CE00593BCC /* ITCCloseDevice2.cpp in Sources */,
+				75B7BCD41FC2D30800593BCC /* ITCSetDAC2.cpp in Sources */,
+				75B7BCD21FC2D30800593BCC /* ITCSelectDevice2.cpp in Sources */,
+				75B7BCEA1FC2D4E900593BCC /* itcXOP2.cpp in Sources */,
+				75B7BCBA1FC2D30800593BCC /* ITCGetCurrentDevice2.cpp in Sources */,
+				75B7BCAE1FC2D30800593BCC /* ITCConfigChannelReset2.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		089C167DFE841241C02AAC07 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				089C167EFE841241C02AAC07 /* English */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		89A4B72A192E7A2000F9B195 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				COPY_PHASE_STRIP = NO;
+				DEBUGGING_SYMBOLS = YES;
+				EXPORTED_SYMBOLS_FILE = ./Exports.exp;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(LOCAL_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_TRIGRAPHS = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = itcXOP2_Prefix.pch;
+				GCC_VERSION = "";
+				GCC_WARN_ABOUT_DEPRECATED_FUNCTIONS = NO;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = NO;
+				GCC_WARN_FOUR_CHARACTER_CONSTANTS = NO;
+				GCC_WARN_UNKNOWN_PRAGMAS = NO;
+				GENERATE_PKGINFO = YES;
+				HEADER_SEARCH_PATHS = (
+					../../XOPSupport,
+					../lib,
+				);
+				INFOPLIST_FILE = Info64.plist;
+				INSTALL_PATH = "$(HOME)/Library/Bundles";
+				LIBRARY_SEARCH_PATHS = (
+					../../XOPSupport/Xcode,
+					../lib,
+				);
+				LIBRARY_STYLE = Bundle;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				OTHER_REZFLAGS = "-i ../../XOPSupport";
+				PRODUCT_NAME = "itcXOP2-64";
+				SDKROOT = macosx;
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = "-Wno-parentheses";
+				WRAPPER_EXTENSION = xop;
+				ZERO_LINK = NO;
+			};
+			name = Debug;
+		};
+		89A4B72B192E7A2000F9B195 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				COPY_PHASE_STRIP = YES;
+				EXPORTED_SYMBOLS_FILE = ./Exports.exp;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(LOCAL_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_ENABLE_TRIGRAPHS = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = itcXOP2_Prefix.pch;
+				GCC_VERSION = "";
+				GCC_WARN_ABOUT_DEPRECATED_FUNCTIONS = NO;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = NO;
+				GCC_WARN_FOUR_CHARACTER_CONSTANTS = NO;
+				GCC_WARN_UNKNOWN_PRAGMAS = NO;
+				GENERATE_PKGINFO = YES;
+				HEADER_SEARCH_PATHS = (
+					../../XOPSupport,
+					../lib,
+				);
+				INFOPLIST_FILE = Info64.plist;
+				INSTALL_PATH = "$(HOME)/Library/Bundles";
+				LIBRARY_SEARCH_PATHS = (
+					../../XOPSupport/Xcode,
+					../lib,
+				);
+				LIBRARY_STYLE = Bundle;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				OTHER_REZFLAGS = "-i ../../XOPSupport";
+				PRODUCT_NAME = "itcXOP2-64";
+				SDKROOT = macosx;
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = "-Wno-parentheses";
+				WRAPPER_EXTENSION = xop;
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+		89A4B72C192E7A2000F9B195 /* Default */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				EXPORTED_SYMBOLS_FILE = ./Exports.exp;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(LOCAL_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_ENABLE_TRIGRAPHS = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = itcXOP2_Prefix.pch;
+				GCC_VERSION = "";
+				GCC_WARN_ABOUT_DEPRECATED_FUNCTIONS = NO;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = NO;
+				GCC_WARN_FOUR_CHARACTER_CONSTANTS = NO;
+				GCC_WARN_UNKNOWN_PRAGMAS = NO;
+				GENERATE_PKGINFO = YES;
+				HEADER_SEARCH_PATHS = (
+					../../XOPSupport,
+					../lib,
+				);
+				INFOPLIST_FILE = Info64.plist;
+				INSTALL_PATH = "$(HOME)/Library/Bundles";
+				LIBRARY_SEARCH_PATHS = (
+					../../XOPSupport/Xcode,
+					../lib,
+				);
+				LIBRARY_STYLE = Bundle;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				OTHER_REZFLAGS = "-i ../../XOPSupport";
+				PRODUCT_NAME = "itcXOP2-64";
+				SDKROOT = macosx;
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = "-Wno-parentheses";
+				WRAPPER_EXTENSION = xop;
+				ZERO_LINK = NO;
+			};
+			name = Default;
+		};
+		89CFA48C093E818800C225E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				COPY_PHASE_STRIP = NO;
+				DEBUGGING_SYMBOLS = YES;
+				EXPORTED_SYMBOLS_FILE = ./Exports.exp;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(LOCAL_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_TRIGRAPHS = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = itcXOP2_Prefix.pch;
+				GCC_VERSION = "";
+				GCC_WARN_ABOUT_DEPRECATED_FUNCTIONS = NO;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = NO;
+				GCC_WARN_FOUR_CHARACTER_CONSTANTS = NO;
+				GCC_WARN_UNKNOWN_PRAGMAS = NO;
+				GENERATE_PKGINFO = YES;
+				HEADER_SEARCH_PATHS = (
+					../../XOPSupport,
+					../lib,
+				);
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Library/Bundles";
+				LIBRARY_SEARCH_PATHS = (
+					../../XOPSupport/Xcode,
+					../lib,
+				);
+				LIBRARY_STYLE = Bundle;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				OTHER_REZFLAGS = "-i ../../XOPSupport";
+				PRODUCT_NAME = itcXOP2;
+				SDKROOT = macosx;
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = "-Wno-parentheses";
+				WRAPPER_EXTENSION = xop;
+				ZERO_LINK = NO;
+			};
+			name = Debug;
+		};
+		89CFA48D093E818800C225E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				COPY_PHASE_STRIP = YES;
+				EXPORTED_SYMBOLS_FILE = ./Exports.exp;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(LOCAL_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_ENABLE_TRIGRAPHS = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = itcXOP2_Prefix.pch;
+				GCC_VERSION = "";
+				GCC_WARN_ABOUT_DEPRECATED_FUNCTIONS = NO;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = NO;
+				GCC_WARN_FOUR_CHARACTER_CONSTANTS = NO;
+				GCC_WARN_UNKNOWN_PRAGMAS = NO;
+				GENERATE_PKGINFO = YES;
+				HEADER_SEARCH_PATHS = (
+					../../XOPSupport,
+					../lib,
+				);
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Library/Bundles";
+				LIBRARY_SEARCH_PATHS = (
+					../../XOPSupport/Xcode,
+					../lib,
+				);
+				LIBRARY_STYLE = Bundle;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				OTHER_REZFLAGS = "-i ../../XOPSupport";
+				PRODUCT_NAME = itcXOP2;
+				SDKROOT = macosx;
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = "-Wno-parentheses";
+				WRAPPER_EXTENSION = xop;
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+		89CFA48E093E818800C225E0 /* Default */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				EXPORTED_SYMBOLS_FILE = ./Exports.exp;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(LOCAL_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_ENABLE_TRIGRAPHS = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = itcXOP2_Prefix.pch;
+				GCC_VERSION = "";
+				GCC_WARN_ABOUT_DEPRECATED_FUNCTIONS = NO;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = NO;
+				GCC_WARN_FOUR_CHARACTER_CONSTANTS = NO;
+				GCC_WARN_UNKNOWN_PRAGMAS = NO;
+				GENERATE_PKGINFO = YES;
+				HEADER_SEARCH_PATHS = (
+					../../XOPSupport,
+					../lib,
+				);
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Library/Bundles";
+				LIBRARY_SEARCH_PATHS = (
+					../../XOPSupport/Xcode,
+					../lib,
+				);
+				LIBRARY_STYLE = Bundle;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				OTHER_REZFLAGS = "-i ../../XOPSupport";
+				PRODUCT_NAME = itcXOP2;
+				SDKROOT = macosx;
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = "-Wno-parentheses";
+				WRAPPER_EXTENSION = xop;
+				ZERO_LINK = NO;
+			};
+			name = Default;
+		};
+		89CFA490093E818800C225E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				GCC_VERSION = "";
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+				WARNING_CFLAGS = "-Wno-parentheses";
+			};
+			name = Debug;
+		};
+		89CFA491093E818800C225E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				GCC_VERSION = "";
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+				WARNING_CFLAGS = "-Wno-parentheses";
+			};
+			name = Release;
+		};
+		89CFA492093E818800C225E0 /* Default */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				GCC_VERSION = "";
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+				WARNING_CFLAGS = "-Wno-parentheses";
+			};
+			name = Default;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		89A4B729192E7A2000F9B195 /* Build configuration list for PBXNativeTarget "itcXOP2-64" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				89A4B72A192E7A2000F9B195 /* Debug */,
+				89A4B72B192E7A2000F9B195 /* Release */,
+				89A4B72C192E7A2000F9B195 /* Default */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Default;
+		};
+		89CFA48B093E818800C225E0 /* Build configuration list for PBXNativeTarget "itcXOP2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				89CFA48C093E818800C225E0 /* Debug */,
+				89CFA48D093E818800C225E0 /* Release */,
+				89CFA48E093E818800C225E0 /* Default */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Default;
+		};
+		89CFA48F093E818800C225E0 /* Build configuration list for PBXProject "itcXOP2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				89CFA490093E818800C225E0 /* Debug */,
+				89CFA491093E818800C225E0 /* Release */,
+				89CFA492093E818800C225E0 /* Default */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Default;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 089C1669FE841209C02AAC07 /* Project object */;
+}

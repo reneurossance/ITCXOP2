@@ -1,0 +1,25 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "901a5c90-7bf8-0310-9425-adaa9899c4dd++6340",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+    "901a5c90-7bf8-0310-9425-adaa9899c4dd++6340" : {
+
+    }
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "901a5c90-7bf8-0310-9425-adaa9899c4dd++6340" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "89DE7AA9-9CA3-4CBC-BBC7-C8450E3263E2",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "901a5c90-7bf8-0310-9425-adaa9899c4dd++6340" : "IgorXOPs7"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "SimpleFit",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "SimpleFit\/Xcode\/SimpleFit.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "svn:\/\/svn.wavemetrics.com\/xops",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "901a5c90-7bf8-0310-9425-adaa9899c4dd++6340"
+    }
+  ]
+}

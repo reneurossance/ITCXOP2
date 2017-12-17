@@ -1,0 +1,13 @@
+# Ignore any executables
+bin/*
+
+# Ignore build and lib dirs 
+build/*
+lib/*
+
+# Ignore IDE dirs
+vstudio/*
+xcode/*
+
+# Ignore Mac specific files
+.DS_Store

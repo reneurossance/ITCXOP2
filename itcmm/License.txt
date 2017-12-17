@@ -1,1 +1,0 @@
-The files in this folder are *NOT* under BSD-3 Clause.
